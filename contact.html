@@ -8,8 +8,8 @@
   <title>Contact/TechCafe</title>
 </head>
 
-<body class="bigpic" id="home">
-  <header>
+<body class="bigpic bg">
+  <header id="contact">
     <div class="main-nav">
       <div>
         <div id="logo">
@@ -24,16 +24,45 @@
         </ul>
       </div>
     </div>
-  </header>
-
-  <div class="home-content">
-    <div class="container">
-      <h2>コーヒーを楽しみながら、未来を創りませんか？</h2>
-      <p>
-        Tech×Cafeでは、テクノロジーに関するイベントを行っています
-      </p>
-      <button id="more">もっと詳しく</button>
+    <div class="contact-logo">
+      <h2>Contact</h2>
     </div>
+  </header>
+  
+  <section class="store-section">
+    <div class="store-box">
+      <div class="location">
+        <h3>京都烏丸御池店</h3>
+        <p>
+          住所:京都市○○<br>
+          営業時間:7時~21時<br>
+          電話番号:○○○
+        </p>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d567.0162639877902!2d135.75955179379932!3d35.01091168727209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010885c927aa3b%3A0x5de0eff56e52e460!2z44CSNjA0LTgxNzEg5Lqs6YO95bqc5Lqs6YO95biC5Lit5Lqs5Yy66JmO5bGL55S6IOW-oeaxoOmAmuOCig!5e0!3m2!1sja!2sjp!4v1612855382026!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <div class="conform">
+    <h2>お問い合わせ</h2>
+     <form action="#"> 
+      <div>
+        <label for="name">お名前</label>
+        <input type="text" id="name">
+      </div>
+      <div>
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email">
+      </div>
+      <div>
+        <label for="message">内容</label>
+        <textarea id="message"></textarea>
+      </div>
+      <input type="submit" class="conbutton" value="送信">
+
+    </form>
   </div>
 
   <footer>

@@ -15,7 +15,19 @@ body{
   background-repeat: no-repeat;
 }
 
+.bg{
+  background-image: url(/Users/shima01/environment/techcafe/images/bg.jpg);
 
+}
+
+.container{
+  background-color:rgba(255,255,255,0.8);
+  padding: 15px;
+  width: 50%;
+  margin:0 auto;
+  border-radius: 15px;
+  text-align: center;
+}
 
 
 /* ヘッダー */
@@ -60,15 +72,6 @@ body{
   padding-top: 10%;
 }
 
-.container{
-  background-color:rgba(255,255,255,0.5);
-  padding: 15px;
-  width: 50%;
-  margin:0 auto;
-  border-radius: 15px;
-  text-align: center;
-}
-
 .button{
   background-color: #1760a0;
   text-decoration: none;
@@ -87,14 +90,6 @@ body{
   background-size: cover;
 }
 
-.bg{
-  background-image: url(/Users/shima01/environment/techcafe/images/bg.jpg);
-
-}
-
-.introduction{
-
-}
 
 .about-content{
   flex: 1;
@@ -139,8 +134,82 @@ body{
 }
 
 
+/* コンタクト */
+#contact{
+  background-image: url(/Users/shima01/environment/techcafe/images/contact.jpg);
+  background-size: cover;
+}
 
+.contact-logo{
+  background-color:rgba(255,255,255,0.8);
+  padding: 5px;
+  width: 30%;
+  margin:0 auto 20px;
+  border-radius: 15px;
+  text-align: center;
+}
 
+.contact-logo h2{
+  margin: 0 auto;
+}
+
+.store-section{
+  background-color: rgba(255,255,255,0.9);
+}
+
+.store-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.location{
+  width: 22%;
+  padding:10px;
+}
+
+.map{
+  width: 74%;
+  padding:5px;
+}
+
+iframe{
+  width: 100%;
+}
+
+.conform{
+  background-color: rgba(215,206,187);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+label{
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+textarea{
+  min-height: 5rem;
+}
+
+.conbutton{
+  padding:5px;
+  border-radius: 5px;
+  cursor: pointer;
+  width:100px;
+}
+
+.conbutton:hover{
+  opacity: 0.8;
+}
 
 /* フッター */
 footer{
