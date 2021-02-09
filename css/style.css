@@ -15,9 +15,8 @@ body{
   background-repeat: no-repeat;
 }
 
-#home{
-  background-image: url(/Users/shima01/environment/techcafe/images/top.jpg);
-} 
+
+
 
 /* ヘッダー */
 .main-nav{
@@ -51,6 +50,10 @@ body{
 }
 
 /* ホーム */
+#home{
+  background-image: url(/Users/shima01/environment/techcafe/images/top.jpg);
+} 
+
 .home-content{
   flex: 1;
   text-align: center;
@@ -63,16 +66,81 @@ body{
   width: 50%;
   margin:0 auto;
   border-radius: 15px;
+  text-align: center;
 }
 
-#more{
+.button{
   background-color: #1760a0;
+  text-decoration: none;
+  padding:5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.button:hover{
+  opacity: 0.8;
+}
+
+/* アバウト */
+#about{
+  background-image: url(/Users/shima01/environment/techcafe/images/about.jpg);
+  background-size: cover;
+}
+
+.bg{
+  background-image: url(/Users/shima01/environment/techcafe/images/bg.jpg);
+
+}
+
+.introduction{
+
+}
+
+.about-content{
+  flex: 1;
+}
+
+.about-main{
+  margin-top: 10px;
+  display: flex;
+}
+
+.about-main div h2{
+  text-align: center;
+}
+
+.about-main div p{
+  display: inline-block;
+  margin: 0;
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+.tech{
+  width: 50%;
+  min-height: 500px;
+  background-color: rgba(70,153,202,0.7);
   color: white;
 }
 
-#more:hover{
-  opacity: 0.9;
+.tech ul{
+  list-style: none;
 }
+
+.cafe{
+  width: 50%;
+  min-height: 500px;
+  background-color: rgba(204,0,0,0.8);
+  color: white;
+}
+
+.cafe ul{
+  list-style-position: inside;
+}
+
+
+
+
 
 /* フッター */
 footer{
