@@ -8,7 +8,6 @@ body{
   padding: 0 4%;
 }
 
-
 .bigpic{
   background-position: center top;
   background-size: cover;
@@ -22,8 +21,8 @@ body{
 
 .container{
   background-color:rgba(255,255,255,0.8);
-  padding: 15px;
-  width: 50%;
+  padding: 10px 15px;
+  width: 60%;
   margin:0 auto;
   border-radius: 15px;
   text-align: center;
@@ -61,6 +60,7 @@ body{
   padding-left: 15px;
 }
 
+
 /* ホーム */
 #home{
   background-image: url(/Users/shima01/environment/techcafe/images/top.jpg);
@@ -84,12 +84,12 @@ body{
   opacity: 0.8;
 }
 
+
 /* アバウト */
 #about{
   background-image: url(/Users/shima01/environment/techcafe/images/about.jpg);
   background-size: cover;
 }
-
 
 .about-content{
   flex: 1;
@@ -130,6 +130,58 @@ body{
 }
 
 .cafe ul{
+  list-style-position: inside;
+}
+
+
+/* ニュース */
+#news{
+  background-image: url(/Users/shima01/environment/techcafe/images/news.jpg);
+  background-size: cover;
+}
+
+.news-contents{
+  display: flex;
+  flex: 1;
+  background-color: rgba(255,255,255,0.9);
+}
+
+aside{
+  width: 150px;
+  background-color: rgba(219,237,240);
+}
+
+main{
+  flex: 1;
+  border:  solid 1px rgba(70,153,202);
+  border-style: 0 1px;
+  padding-top:15px;
+}
+
+.news-block{
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  border: solid 2px rgba(70,153,202);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.news-date{
+  border-bottom: solid 1px rgba(70,153,202);
+}
+
+.news-date h3{
+  margin: 0;
+}
+
+.news-index{
+  width: 200px;
+  background-color: rgba(215,206,187);
+}
+
+.news-index ul li{
+  border-bottom: 1px solid black;
   list-style-position: inside;
 }
 
