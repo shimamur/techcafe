@@ -15,7 +15,7 @@ body{
 }
 
 .bg{
-  background-image: url(../images/bg.jpg);
+  background-image: url(./images/bg.jpg);
 
 }
 
@@ -63,7 +63,7 @@ body{
 
 /* ホーム */
 #home{
-  background-image: url(../images/top.jpg);
+  background-image: url(./images/top.jpg);
 } 
 
 .home-content{
@@ -87,7 +87,7 @@ body{
 
 /* アバウト */
 #about{
-  background-image: url(../images/about.jpg);
+  background-image: url(./images/about.jpg);
   background-size: cover;
 }
 
@@ -136,7 +136,7 @@ body{
 
 /* ニュース */
 #news{
-  background-image: url(../images/news.jpg);
+  background-image: url(./images/news.jpg);
   background-size: cover;
 }
 
@@ -188,7 +188,7 @@ main{
 
 /* コンタクト */
 #contact{
-  background-image: url(../images/contact.jpg);
+  background-image: url(./images/contact.jpg);
   background-size: cover;
 }
 
